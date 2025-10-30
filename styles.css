@@ -1,0 +1,133 @@
+img {
+    display: block;
+    margin: auto;
+    max-width: 30%;
+    height: auto;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#homepage {
+    background: #87b6c9;
+}
+
+#license-plates {
+    background: #e8ab4f;
+}
+
+#license-plates p {
+    text-align: center;
+}
+
+#sandwiches {
+    background: #8bc9ac;
+}
+
+#sandwiches p {
+    text-align: center;
+}
+
+#pepper {
+    background: #96a7b0;
+    text-align: center;
+}
+
+.pepper-table {
+    display: inline-block;
+    background: #d4dbdf;
+    text-align: center;
+}
+
+#rule-of-threes, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 5px;
+}
+
+#likes-dislikes {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: inline-block;
+    text-align: left;
+}
+
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #8a8f96;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+/* nav button and link template from w3schools CSS tutorial*/
+
+#top-nav a {
+    background-color: #bcc2cc;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+
+footer {
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid black;
+}
